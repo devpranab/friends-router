@@ -5,9 +5,10 @@ const Friend = props => {
 
     const friendStyle = {
         border: '1px solid purple',
-        margin: '20px',
+        margin: '20px auto',
         padding: '20px',
-        borderRadius: '20px'
+        borderRadius: '20px',
+        width: "80%",
     }
     return (
         <div style={friendStyle}>
